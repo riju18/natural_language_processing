@@ -1,0 +1,128 @@
+*{
+    margin: 0;padding: 0;outline: 0;
+}
+body{
+    background: #bdc3c7;
+    font-family: monospace;
+}
+#main{
+    width: 600px;
+    overflow: hidden;
+    clear: both;
+    /*border: 1px solid black;*/
+    margin: 40px auto;
+}
+#main #searchBar{
+    width: 450px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 20px; 
+    float: left;
+}
+#main #searchBar #userInput{
+    background: #95a5a6;
+    border: 1px solid #2c3e50;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #1abc9c;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#main #result{
+    width: 450px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 20px; 
+    float: left;
+    margin-bottom: 20px;
+}
+#main #result p{
+    padding: 5px;
+    color: #2ecc71;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#main #result #pos{
+    font-size: 17px;
+    padding: 5px;
+    width: 300px;
+    overflow: hidden;
+    clear: both;
+    border: 1px solid black;
+    border-radius: 10px; 
+    margin: 10px 20px;
+    background: #95a5a6;
+    color: #34495e;
+    font-weight: bolder;
+    float: left;
+}
+#main #words{
+    width: 450px;
+   /* border: 1px solid black;*/
+    overflow: hidden;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 20px; 
+    float: left;
+    margin-bottom: 20px;
+}
+#main #words p{
+    padding: 5px;
+    color: #2ecc71;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#main #words #lexime{
+    font-size: 17px;
+    padding: 5px;
+    width: 300px;
+    overflow: hidden;
+    clear: both;
+    border: 1px solid black;
+    border-radius: 10px; 
+    margin: 10px 20px;
+    background: #95a5a6;
+    color: #34495e;
+    font-weight: bolder;
+    float: left;
+}
+#main #options{
+    width: 450px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    clear: both;
+    margin-left: 30px;
+    margin-top: 20px; 
+    float: left;
+    margin-bottom: 20px;
+}
+#main #options #negate,#postive,#present,#past,#future{
+    border: 1px solid black;
+    margin: 15px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center; 
+    cursor: pointer;
+    font-size: 17px;
+}
+#main #options #negate:hover{
+    background: green;
+}
+#main #options #postive:hover{
+    background: green;
+}
+#main #options #present:hover{
+    background: green;
+}
+#main #options #past:hover{
+    background: green;
+}
+#main #options #future:hover{
+    background: green;
+}
